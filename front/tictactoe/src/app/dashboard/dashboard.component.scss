@@ -1,0 +1,26 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.game-list,
+.user-list {
+  width: 30%;
+}
+
+.new-game {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}

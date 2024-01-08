@@ -1,0 +1,25 @@
+<div class="dashboard-container">
+  <div class="game-list">
+    <h2>Available Games</h2>
+    <ul>
+      <li *ngFor="let game of availableGames">
+        Game ID: {{ game.id }}, Status: {{ game.status }}
+        <!-- Add a join button or link -->
+        <button (click)="joinGame(game.id)">Join Game</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="new-game">
+    <button (click)="startNewGame()">Start New Game</button>
+  </div>
+
+  <div class="user-list">
+    <h2>Leaderboard</h2>
+    <ul>
+      <li *ngFor="let user of users">
+        {{ user.username }} - {{ user.wins }} Wins
+      </li>
+    </ul>
+  </div>
+</div>

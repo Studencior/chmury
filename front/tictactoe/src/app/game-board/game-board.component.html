@@ -1,0 +1,21 @@
+<div class="game-board">
+  <div class="row" *ngFor="let row of board; let i = index">
+    <div
+      class="cell"
+      *ngFor="let cell of row; let j = index"
+      (click)="makeMove(i, j)"
+    >
+      {{ cell }}
+    </div>
+  </div>
+  
+</div>
+<div *ngIf="winner" class="winner-announcement">
+  Winner: {{ winner }}
+</div>
+
+<!-- Redirect Button -->
+<button (click)="redirectToDashboard()">Go to Dashboard</button>
+
+<!-- Existing game board structure -->
+<!-- ... -->

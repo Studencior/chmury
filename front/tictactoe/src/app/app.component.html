@@ -1,0 +1,13 @@
+<!-- Main navigation bar (optional) -->
+<nav>
+  <div ngClass="title">TIC TAC TOE</div>
+  <a routerLink="/login">Login</a>
+  <a routerLink="/signup">Signup</a>
+  <!-- Add this button somewhere in your template -->
+  <button (click)="onLogout()">Logout</button>
+
+  <!-- Navigation links go here -->
+</nav>
+
+<!-- Router Outlet -->
+<router-outlet></router-outlet>
