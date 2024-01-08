@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.game.tictac.TictacApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.35 s -- in pl.game.tictac.TictacApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.65 s -- in pl.game.tictac.TictacApplicationTests
